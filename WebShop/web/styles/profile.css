@@ -1,0 +1,174 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 19, 2023, 2:51:05 PM
+    Author     : Admin
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------Navbar----------------*/
+/*.navbar {
+    height: 80px;
+    width: 100%;
+}
+
+.nav-item{
+    display: inline-flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: gray;
+}
+
+#slide {
+    margin-top: 80px;
+}
+
+.nav-item a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#logo {
+    padding: 10px;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+#toggle {
+    color: black;
+}
+
+.nav-but {
+    padding: 15px;
+}
+
+.nav-but .btn{
+    display: inline-flex;
+    align-items: center;
+}
+@media(max-width: 1080px) {
+    .ul-bg {
+        background-color: #f7dff8;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .btnsearch {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        padding: 0px;
+    }
+
+    .nav-but {
+        padding: 15px;
+    }
+}*/
+
+.vh-100 h6{
+    color: black;
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+    }
+/*----------------News----------------*/
+.news{
+    text-align: center;
+    height: 350px;
+    background-color: rgb(226, 224, 224);
+    margin-top: 10px;
+}
+
+.news .content{
+    padding: 50px;
+    font-weight: 700;
+}
+
+.news .content input{
+    padding: 15px;
+    width: 450px;
+    border: 5px solid rgb(119, 118, 118);
+    border-radius: 10px;
+}
+
+.news .content .btn{
+    padding: 16px;
+}
+
+.news .content .input{
+    padding: 10px;
+}
+.news .content .social{
+    padding: 20px;
+}
+.news .content .social a{
+    padding: 15px;
+}
+
+@media(max-width:768px){
+    .news .content input{
+        padding: 10px;
+        width: 200px;
+    }
+    .news .content .btn{
+        padding: 10px;
+    }
+
+    .news .content .social{
+        padding: 5px;
+    }
+}
+
+
+/*----------------Footer-----------------*/
+.footers{
+    background: black;
+    height: 450px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.footers p,h6{
+    color: white;
+}
+.footers a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:768px){
+    .footers p,.footers h6{
+        font-size: 12px;
+    }
+    .footers a{
+        font-size: 15px;
+    }
+}

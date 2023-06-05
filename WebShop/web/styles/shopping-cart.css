@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 1, 2023, 9:02:41 AM
+    Author     : Admin
+*/
+
+
+/*-----------Paragraph--------------*/
+.paragraph{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: white ;
+}
+
+.paragraph p{
+    font-size: 20px;
+    font-weight: 350;
+    margin-top: 10px;
+    padding-left: 100px;
+    color: black;
+}
+
+@media(max-width:1080px){
+    .paragraph p{
+        padding-left: 10px;
+    }
+}
+/*----------------giỏ hàng---------------*/
+.giohang{
+    margin-bottom: 30px;
+}
+.giohang .item-list {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 2%;
+    margin-bottom: 10px;
+}
+.giohang .item-list img{
+    width: 10%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.list-item-content{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.list-item-content .btn{
+    margin-left: 50px;
+}
+.btn.btn-amount{
+    margin-left: 0px;
+}
+
+@media(max-width:1080px){
+    .row-list{
+        display: block;
+    }
+    .giohang .item-list img{
+        width: 50%;
+        height: auto;
+        margin-left: 0;
+    }
+    .list-item-content{
+        display: block;
+        margin: 0 auto;
+    }
+    .list-item-content .btn{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,321 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 1, 2023, 2:03:08 PM
+    Author     : Admin
+*/
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 8, 2023, 8:25:08 AM
+    Author     : Admin
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------Navbar----------------*/
+.navbar {
+    height: 80px;
+    width: 100%;
+}
+
+.nav-item{
+    align-items: center;
+}
+.nav-item1{
+    display: inline-flex;
+    align-items: center;
+}
+#logo {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: gray;
+}
+
+#slide {
+    margin-top: 80px;
+}
+
+.nav-item a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#logo {
+    padding: 10px;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+#toggle {
+    padding: 10px;
+    color: black;
+}
+
+.nav-but {
+    padding: 15px;
+}
+
+.nav-but .btn{
+    display: inline-flex;
+    align-items: center;
+}
+@media(max-width: 1080px) {
+    .ul-bg {
+        background-color: #f7dff8;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .btnsearch {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        padding: 0px;
+    }
+
+    .nav-but {
+        padding: 15px;
+    }
+}
+
+/* --------------Product------------------ */
+.new-product {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.carousel-inner.product {
+    padding: 50px;
+}
+
+.carousel-inner.product a{
+    text-decoration: none;
+    color: black;
+}
+.card {
+    margin: 15px auto;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+
+.carousel-inner.product img{
+    padding-top: 10px;
+}
+.carousel-control-prev, .carousel-control-next{
+    padding-top: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(94, 119, 119);
+    border-radius: 50%;
+}
+
+/*----------------Blog---------------*/
+.blog{
+    text-align: center;
+    margin-top: 30px;
+}
+.blog h2{
+    font-weight: 600;
+}
+.blog p{
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.blog-content{
+    padding-bottom: 30px;
+}
+
+.blog-content .card{
+    width: 80%;
+    padding-bottom: 10px;
+    border: none;
+    box-shadow: none;
+}
+.blog-content .card img{
+    width: 100%;
+    height: 250px;
+}
+
+.blog-content .card h5 ,.blog-content .card a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------------News----------------*/
+.news{
+    text-align: center;
+    height: 350px;
+    background-color: rgb(226, 224, 224);
+    margin-top: 10px;
+}
+.news .content{
+    padding: 50px;
+    font-weight: 700;
+}
+.news .content input{
+    padding: 15px;
+    width: 450px;
+    border: 5px solid rgb(119, 118, 118);
+    border-radius: 10px;
+}
+.news .content .btn{
+    padding: 16px;
+    width: 100px;
+}
+.news .content .input{
+    padding: 10px;
+}
+.news .content .social{
+    padding: 20px;
+}
+.news .content .social a{
+    padding: 15px;
+}
+@media(max-width:768px){
+    .news .content input{
+        padding: 10px;
+        width: 200px;
+    }
+    .news .content .btn{
+        padding: 10px;
+    }
+    .news .content .social{
+        padding: 5px;
+    }
+}
+
+
+/*----------------Footer-----------------*/
+.footers{
+    background: black;
+    height: 450px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.footers p,h6{
+    color: white;
+}
+.footers a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:768px){
+    .footers p,.footers h6{
+        font-size: 12px;
+    }
+    .footers a{
+        font-size: 15px;
+    }
+}
+
+
+/* sign in FORM */
+#logreg-forms{
+    width:412px;
+    margin:10vh auto;
+    background-color:#f3f3f3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#logreg-forms form {
+    width: 100%;
+    max-width: 410px;
+    padding: 15px;
+    margin: auto;
+}
+#logreg-forms .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+#logreg-forms .form-control:focus { z-index: 2; }
+#logreg-forms .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#logreg-forms .form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#logreg-forms .social-login{
+    width:390px;
+    margin:0 auto;
+    margin-bottom: 14px;
+}
+#logreg-forms .social-btn{
+    font-weight: 100;
+    color:white;
+    width:190px;
+    font-size: 0.9rem;
+}
+
+#logreg-forms a{
+    display: block;
+    padding-top:10px;
+    color:lightseagreen;
+}
+
+#logreg-form .lines{
+    width:200px;
+    border:1px solid red;
+}
+
+/* Mobile */
+
+@media screen and (max-width:500px){
+    #logreg-forms{
+        width:300px;
+    }
+    
+    #logreg-forms  .social-login{
+        width:200px;
+        margin:0 auto;
+        margin-bottom: 10px;
+    }
+    #logreg-forms  .social-btn{
+        font-size: 1.3rem;
+        font-weight: 100;
+        color:white;
+        width:200px;
+        height: 56px;
+        
+    }
+    #logreg-forms .social-btn:nth-child(1){
+        margin-bottom: 5px;
+    }
+    #logreg-forms .social-btn span{
+        display: none;
+    }
+    #logreg-forms  .facebook-btn:after{
+        content:'Facebook';
+    }
+  
+    #logreg-forms  .google-btn:after{
+        content:'Google+';
+    }
+    
+}

@@ -1,0 +1,249 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 2, 2023, 3:35:43 PM
+    Author     : Admin
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------Navbar----------------*/
+.navbar {
+    height: 80px;
+    width: 100%;
+}
+
+#logo {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: gray;
+}
+
+#slide {
+    margin-top: 80px;
+}
+
+.nav-item a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#logo {
+    padding: 10px;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+#toggle {
+    color: black;
+}
+
+.nav-but {
+    padding: 15px;
+}
+
+@media(max-width: 1080px) {
+    .ul-bg {
+        background-color: #f7dff8;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .btnsearch {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        padding: 0px;
+    }
+
+    .nav-but {
+        padding: 15px;
+    }
+}
+
+/*-----------Paragraph--------------*/
+.paragraph{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: white ;
+}
+
+.paragraph p{
+    font-size: 20px;
+    font-weight: 350;
+    margin-top: 10px;
+    padding-left: 100px;
+    color: black;
+}
+
+/*-------------List----------------*/
+
+.list-product p{
+/*    margin-left: 40px;
+    margin-top: 30px;*/
+    font-weight: 600;
+    margin-top: 16px;
+}
+.list-product ul{
+    list-style: none;
+}
+.list-product ul li{
+    padding: 10px;
+}
+
+.lists{
+    margin: 0 auto;
+}
+.list-product a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.text ul li a{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.product{
+    padding-top: 0px;
+}
+.product .card{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.product .product-line{
+    margin-top: 40px;
+    display: flex;
+}
+
+.product button{
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+
+.page-active {
+    background-color: orange;
+    color: white;
+}
+
+.category-selected{
+    color: orange !important;
+    font-size: 25px;
+}
+
+.card-body{
+    text-align: center; 
+}
+@media(max-width:768px){
+    .list-product{
+        text-align: center;
+    }
+
+    .product-line{
+        width: 100%;
+    }
+    .product .card{
+        text-align: center;
+        width: 33%;
+        margin-left: 5px;
+    }
+    .product a{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    
+}
+
+/*----------------News----------------*/
+.news{
+    text-align: center;
+    height: 350px;
+    background-color: rgb(226, 224, 224);
+    margin-top: 10px;
+}
+
+.news .content{
+    padding: 50px;
+    font-weight: 700;
+}
+
+.news .content input{
+    padding: 15px;
+    width: 450px;
+    border: 5px solid rgb(119, 118, 118);
+    border-radius: 10px;
+}
+
+.news .content .btn{
+    padding: 16px;
+}
+
+.news .content .input{
+    padding: 10px;
+}
+.news .content .social{
+    padding: 20px;
+}
+.news .content .social a{
+    padding: 15px;
+}
+
+@media(max-width:768px){
+    .news .content input{
+        padding: 10px;
+        width: 200px;
+    }
+    .news .content .btn{
+        padding: 10px;
+    }
+
+    .news .content .social{
+        padding: 5px;
+    }
+}
+
+
+/*----------------Footer-----------------*/
+.footers{
+    background: black;
+    height: 450px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.footers p,h6{
+    color: white;
+}
+.footers a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:768px){
+    .footers p,.footers h6{
+        font-size: 12px;
+    }
+    .footers a{
+        font-size: 15px;
+    }
+}
