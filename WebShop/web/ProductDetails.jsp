@@ -23,6 +23,7 @@
         crossorigin="anonymous"></script>
     </head>
     <body>
+        
         <div>
             <%@include file="navbar.jsp" %>
         </div>
@@ -41,21 +42,21 @@
 
                     <div class="col-lg-9 col-md-9 col-xs-9">
                         <div class="row">
-                            <div class="list-image col-lg-3 col-md-3 col-xs-3">
+                            <div class="list-image col-lg-3 col-md-3 col-xs-3 ">
                                 <a href="#" onclick="show1()">
-                                    <img src="${detail.image1}" alt="" class="img1"
+                                    <img src="${detail.image1}" alt="" class="img1 single-item"
                                          style="width: 100%; margin-bottom: 20px;">
                                 </a>
                                 <a href="#" onclick="show2()">
-                                    <img src="${detail.image2}" alt="" class="img2"
+                                    <img src="${detail.image2}" alt="" class="img2 single-item"
                                          style="width: 100%; margin-bottom: 20px;">
                                 </a>
                                 <a href="#" onclick="show3()">
-                                    <img src="${detail.image3}" alt="" class="img3"
+                                    <img src="${detail.image3}" alt="" class="img3 single-item"
                                          style="width: 100%; margin-bottom: 20px;">
                                 </a>
                             </div>
-                            <div class="show col-lg-9 col-md-9 col-xs-9">
+                            <div class="show col-lg-9 col-md-9 col-xs-9 single-item">
                                 <img src="${product.image}" class="img-show" alt=""
                                      style="width: 90%; margin-bottom: 20px;">
                             </div>
@@ -116,7 +117,7 @@
             <div class="container">
                 <div class="row">
                     <c:forEach begin="0" end="3" items="${productRelated}" var="pr">
-                        <div class="card col-lg-3 col-md-3 col-xs-3">
+                        <div class="card col-lg-3 col-md-3 col-xs-3 single-item">
                             <a href="detail?pid=${pr.pid}">
                                 <img src="${pr.image}" class="d-block w-100" alt="...">
                                 <div class="card-body">

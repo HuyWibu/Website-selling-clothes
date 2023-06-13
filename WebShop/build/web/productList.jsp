@@ -15,6 +15,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <style>
+            .single-item{
+                transition: 0.5s;
+                
+            }
+            
+            .single-item:hover{
+                transform: scale(1.05);
+                
+            }
+        </style>
     </head>
     <body>
         <div class="new-product">
@@ -26,7 +37,7 @@
                     <div class="carousel-item active">
                         <div class="row">
                             <c:forEach begin="0" end="4" items="${listProduct}" var="p">
-                                <div class="card col-lg-2">
+                                <div class="card col-lg-2 single-item">
                                     <a href="detail?pid=${p.pid}">
                                         <img src="${p.image}" class="d-block w-100" alt="...">
                                         <div class="card-body">
@@ -43,7 +54,7 @@
                     <div class="carousel-item">
                         <div class="row">
                             <c:forEach begin="5" end="9" items="${listProduct}" var="p">
-                                <div class="card col-lg-2">
+                                <div class="card col-lg-2 single-item">
                                     <a href="detail?pid=${p.pid}">
                                         <img src="${p.image}" class="d-block w-100" alt="...">
                                         <div class="card-body">

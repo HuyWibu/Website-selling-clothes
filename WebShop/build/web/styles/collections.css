@@ -33,3 +33,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     border: 1px solid gray;
     padding: 25px;
 }
+
+/*----------------Single-item-----------------*/
+
+.single-item{
+    transition: 0.5s;
+
+}
+
+.single-item:hover{
+    transform: scale(1.05);
+
+}

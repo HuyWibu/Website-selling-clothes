@@ -59,7 +59,7 @@
                         <p>TẤT CẢ SẢN PHẨM</p>
                         <div class="product-line">
                             <c:forEach begin="${0}" end="${2}" items="${data}" var="i">
-                                <div class="card col-lg-4">
+                                <div class="card col-lg-4 single-item">
                                     <a href="detail?pid=${i.pid}">
                                         <img src="${i.image}" class="d-block w-100" alt="...">
                                         <div class="card-body">
@@ -77,7 +77,7 @@
                         <!--Load sp len day-->
                         <div class="product-line">
                             <c:forEach begin="${3}" end="${5}" items="${data}" var="i">
-                                <div class="card col-lg-4">
+                                <div class="card col-lg-4 single-item">
                                     <a href="detail?pid=${i.pid}">
                                         <img src="${i.image}" class="d-block w-100" alt="...">
                                         <div class="card-body">
@@ -94,7 +94,7 @@
                         </div>                     
                         <div class="product-line">
                             <c:forEach begin="${6}" end="${8}" items="${data}" var="i">
-                                <div class="card col-lg-4">
+                                <div class="card col-lg-4 single-item">
                                     <a href="detail?pid=${i.pid}">
                                         <img src="${i.image}" class="d-block w-100" alt="...">
                                         <div class="card-body">

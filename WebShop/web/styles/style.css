@@ -250,7 +250,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     padding: 10px;
     font-size: 16px;
 }
-#logreg-forms .form-control:focus { z-index: 2; }
+#logreg-forms .form-control:focus {
+    z-index: 2;
+}
 #logreg-forms .form-signin input[type="email"] {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
@@ -290,7 +292,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     #logreg-forms{
         width:300px;
     }
-    
+
     #logreg-forms  .social-login{
         width:200px;
         margin:0 auto;
@@ -302,7 +304,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
         color:white;
         width:200px;
         height: 56px;
-        
+
     }
     #logreg-forms .social-btn:nth-child(1){
         margin-bottom: 5px;
@@ -313,9 +315,22 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     #logreg-forms  .facebook-btn:after{
         content:'Facebook';
     }
-  
+
     #logreg-forms  .google-btn:after{
         content:'Google+';
     }
-    
+
+
+}
+
+/*----------------Single-item-----------------*/
+
+.single-item{
+    transition: 0.5s;
+
+}
+
+.single-item:hover{
+    transform: scale(1.05);
+
 }

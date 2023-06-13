@@ -36,8 +36,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 }
 
 .list-image{
-        border: 1px solid gray;
-        padding: 10px;
+    border: 1px solid gray;
+    padding: 10px;
 }
 .card {
     margin: 15px auto;
@@ -47,4 +47,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 .card a{
     text-decoration: none;
     color: black;
+}
+/*----------------Single-item-----------------*/
+
+.single-item{
+    transition: 0.5s;
+
+}
+
+.single-item:hover{
+    transform: scale(1.05);
+
 }

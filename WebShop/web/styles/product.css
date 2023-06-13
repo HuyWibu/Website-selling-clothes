@@ -95,8 +95,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 /*-------------List----------------*/
 
 .list-product p{
-/*    margin-left: 40px;
-    margin-top: 30px;*/
+    /*    margin-left: 40px;
+        margin-top: 30px;*/
     font-weight: 600;
     margin-top: 16px;
 }
@@ -151,7 +151,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 }
 
 .card-body{
-    text-align: center; 
+    text-align: center;
 }
 @media(max-width:768px){
     .list-product{
@@ -170,7 +170,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
         font-size: 12px;
         margin-left: 0px;
     }
-    
+
 }
 
 /*----------------News----------------*/
@@ -246,4 +246,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     .footers a{
         font-size: 15px;
     }
+}
+
+/*----------------Single-item-----------------*/
+
+.single-item{
+    transition: 0.5s;
+
+}
+
+.single-item:hover{
+    transform: scale(1.05);
+
 }

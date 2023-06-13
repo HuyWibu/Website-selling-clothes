@@ -17,7 +17,7 @@
             <p>ĐÓN ĐẦU XU HƯỚNG, ĐỊNH HÌNH PHONG CÁCH</p>
             <div class="blog-content">
                 <div class="row">
-                    <div class="blog1 col-lg-4">
+                    <div class="blog1 col-lg-4 single-item">
                         <div class="card">
                             <a href="collection">
                                 <img src="./image/blog1.webp" class="d-block w-100 h-60" alt="...">
@@ -27,7 +27,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="blog1 col-lg-4">
+                    <div class="blog1 col-lg-4 single-item">
                         <div class="card">
                             <a href="collection">
                                 <img src="./image/blog2.jpg" class="d-block w-100 h-60" alt="...">
@@ -37,7 +37,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="blog1 col-lg-4">
+                    <div class="blog1 col-lg-4 single-item">
                         <div class="card">
                             <a href="collection">
                                 <img src="./image/blog3.webp" class="d-block w-100 h-60" alt="...">

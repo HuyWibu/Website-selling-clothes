@@ -37,7 +37,7 @@
             <h3 style="padding: 20px;">GIỎ HÀNG</h3>
             <c:set var="o" value="${sessionScope.cart}"/>
             <c:forEach items="${o.items}" var="i">
-                <div class="item-list">
+                <div class="item-list single-item">
                     <div class="row-list" style="display: flex;">
                         <img src="${i.product.image}" alt="">
                         <div class="list-item-content">

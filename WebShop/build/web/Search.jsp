@@ -46,7 +46,7 @@
                 <div class="row">
 
                     <c:forEach begin="${0}" end="${3}" items="${data}" var="i">
-                        <div class="card col-lg-3">
+                        <div class="card col-lg-3 single-item">
                             <a href="detail?pid=${i.pid}" class="card-search">
                                 <img src="${i.image}" class="d-block w-100" alt="...">
                                 <div class="card-body">
@@ -64,7 +64,7 @@
                 <div class="row">
 
                     <c:forEach begin="${4}" end="${7}" items="${data}" var="i">
-                        <div class="card col-lg-3">
+                        <div class="card col-lg-3 single-item">
                             <a href="detail?pid=${i.pid}" class="card-search">
                                 <img src="${i.image}" class="d-block w-100" alt="...">
                                 <div class="card-body">
